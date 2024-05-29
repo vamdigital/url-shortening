@@ -2,7 +2,7 @@
 const nextConfig = {
   experimental: {
     // after: true,
-    ppr: 'incremental',
+    // ppr: 'incremental',
     reactCompiler: {
       compilationMode: 'annotation'
     }
