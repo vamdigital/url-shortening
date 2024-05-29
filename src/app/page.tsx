@@ -1,3 +1,7 @@
 export default function Home() {
-  return <h1 className='font-mono'>Url Shortening</h1>
+  return (
+    <div className="container">
+      <h1 className="text-4xl font-bold">Shortly</h1>
+    </div>
+  );
 }
