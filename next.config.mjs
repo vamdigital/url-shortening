@@ -2,11 +2,11 @@
 const nextConfig = {
   experimental: {
     // after: true,
-    ppr: "incremental",
+    ppr: 'incremental',
     reactCompiler: {
-      compilationMode: "annotation",
-    },
-  },
-};
+      compilationMode: 'annotation'
+    }
+  }
+}
 
-export default nextConfig;
+export default nextConfig
