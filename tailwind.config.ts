@@ -10,8 +10,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        'max-mobile': { max: '1023px' }
+      },
       container: {
         center: true,
+        padding: '1.5rem',
         screens: {
           sm: '375px',
           md: '728px',
@@ -21,13 +25,13 @@ const config: Config = {
         }
       },
       colors: {
-        background: 'var(--background)',
-        foreground: 'var(--foreground)'
-      },
-      fontFamily: {
-        // sans: ['var(--font-geist-sans)'],
-        sans: ['Poppins', ...defaultTheme.fontFamily.sans]
-        // mono: ['var(--font-geist-mono)']
+        cyan: 'hsl(180, 66%, 49%)',
+        red: 'hsl(0, 87%, 67%)',
+        'd-violet': 'hsl(257, 27%, 26%)',
+        'l-gray': 'hsl(0, 0%, 75%)',
+        'g-violet': 'hsl(257, 7%, 63%)',
+        'v-d-blue': 'hsl(255, 11%, 22%)',
+        'v-d-violet': 'hsl(260, 8%, 14%)'
       }
     }
   },
